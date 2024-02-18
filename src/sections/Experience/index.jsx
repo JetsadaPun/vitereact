@@ -19,7 +19,6 @@ const Experience = () => {
             <FontAwesomeIcon icon={faMedium} />
             <FontAwesomeIcon icon={faYoutube} />
         </div>
-        <div>Material</div>
         <div className="text-sm">
           Designing and developing a sports data analysis system that scrapes
           data from various sports websites, processes it, and presents
