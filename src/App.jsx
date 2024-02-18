@@ -1,12 +1,13 @@
 import "./App.css";
+import LeftSection from "./sections/LeftSection";
+import RightSection from "./sections/RightSection";
 
 function App() {
   return (
-      <div className="grid grid-cols-[40%_60%]">
-        <div>Left</div>
-        <div>Right</div>
-
-      </div>
+    <div className="mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]">
+      <LeftSection />
+      <RightSection />
+    </div>
   );
 }
 
